@@ -48,6 +48,11 @@
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/command/command-en.png?id=80fbadc666cf3b9b1958c546d2746ca4" width="200" alt="DesignPatterns">
   </div>
+<h4><a href="" target="_blank">Strategy Pattern</a> </h4>
+  - Strategy Pattern is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+  <div align="center">
+  <img src="https://refactoring.guru/images/patterns/content/strategy/strategy.png?id=379bfba335380500375881a3da6507e0" width="200" alt="DesignPatterns">
+  </div>
 
 ## WARNING!
 > If you are a `COMPLETE BEGINNER` to Unity and C#, "Design Patterns" might be hard to understand. I prefer you watch this <a href="https://www.youtube.com/watch?v=R6oUq_Tr04g&list=PLWcP9q-zO2JqoH-_O8v4huhQYjA0oYIPa">"Flappy Bird"</a> series.
