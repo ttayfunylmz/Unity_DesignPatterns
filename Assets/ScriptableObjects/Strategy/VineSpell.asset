@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f525cf3c7c602a048958f6d31a910fbc, type: 3}
+  m_Name: VineSpell
+  m_EditorClassIdentifier: 
+  vineParticlesPrefab: {fileID: 8842345893768234556, guid: 363af182e22b06747a790b50821c55e7,
+    type: 3}
+  selfDestructionDuration: 5

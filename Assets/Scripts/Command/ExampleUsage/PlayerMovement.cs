@@ -5,7 +5,6 @@ using DG.Tweening;
 //A simple class to manage Player Movement.
 public class PlayerMovement : MonoBehaviour
 {
-    private const string IS_JUMPING = "isJumping";
 
     [SerializeField] private Animator playerAnimator;
     [SerializeField] private float moveDuration = 0.75f;
@@ -15,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 destination = transform.position + movement;
         StartCoroutine(AnimateMovement(destination));
-        playerAnimator.SetTrigger(IS_JUMPING);
+        playerAnimator.SetTrigger(Consts.CommandPatternConsts.IS_JUMPING);
     }
 
     //Animate the Cube.
