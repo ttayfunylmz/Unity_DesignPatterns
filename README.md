@@ -39,19 +39,24 @@
   <img src="https://refactoring.guru/images/patterns/content/factory-method/factory-method-en.png" width="200" alt="DesignPatterns">
   </div>
 <h4><a href="https://youtu.be/KkEkitFPTis?si=_HyGGh7wbOOtOhi8" target="_blank">Observer Pattern</a> </h4>
-  - Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+  - Observer Pattern is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/observer/observer.png?id=6088e31e1b0d4a417506a66614dcf065" width="200" alt="DesignPatterns">
   </div>
 <h4><a href="https://youtu.be/KkEkitFPTis?si=XmAGZ7mC08T3fz2P" target="_blank">Command Pattern</a> </h4>
-  - Command pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event at a later time.
+  - Command Pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event at a later time.
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/command/command-en.png?id=80fbadc666cf3b9b1958c546d2746ca4" width="200" alt="DesignPatterns">
   </div>
-<h4><a href="" target="_blank">Strategy Pattern</a> </h4>
+<h4><a href="https://youtu.be/dqT2QBu1XoA?si=QYPzxznM3I_rZNfl" target="_blank">Strategy Pattern</a> </h4>
   - Strategy Pattern is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/strategy/strategy.png?id=379bfba335380500375881a3da6507e0" width="200" alt="DesignPatterns">
+  </div>
+<h4><a href="" target="_blank">Decorator Pattern</a> </h4>
+  - Decorator Pattern is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+  <div align="center">
+  <img src="https://refactoring.guru/images/patterns/content/decorator/decorator.png?id=710c66670c7123e0928d3b3758aea79e" width="200" alt="DesignPatterns">
   </div>
 
 ## WARNING!
