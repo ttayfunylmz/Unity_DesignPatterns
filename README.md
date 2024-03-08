@@ -53,10 +53,15 @@
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/strategy/strategy.png?id=379bfba335380500375881a3da6507e0" width="200" alt="DesignPatterns">
   </div>
-<h4><a href="" target="_blank">Decorator Pattern</a> </h4>
+<h4><a href="https://youtu.be/DfcuXtLB-r8?si=a8DApIvyptqEYu4K" target="_blank">Decorator Pattern</a> </h4>
   - Decorator Pattern is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/decorator/decorator.png?id=710c66670c7123e0928d3b3758aea79e" width="200" alt="DesignPatterns">
+  </div>
+<h4><a href="" target="_blank">MVP Pattern</a> </h4>
+  - MVP Pattern, is using the Model, View, and Presenter components to separate the data part of the application (Model), the user interface (View), and the communication between these two components (Presenter). It is an architectural design pattern.
+  <div align="center">
+  <img src="https://refactoring.guru/images/patterns/content/memento/memento-en.png" width="200" alt="DesignPatterns">
   </div>
 
 ## WARNING!
