@@ -9,6 +9,8 @@ public class Consts : MonoBehaviour
     {
         public const string MERGE_SOUND = "MergeSound";
         public const string HOVER_SOUND = "HoverSound";
+        public const string DAMAGE_SOUND = "DamageSound";
+        public const string HEAL_SOUND = "HealSound";
     }
 
     public struct StrategyPatternConsts
@@ -24,5 +26,11 @@ public class Consts : MonoBehaviour
     public struct DecoratorPatternConsts
     {
         public const string IS_LEVELING_UP = "isLevelingUp";
+    }
+
+    public struct MVPPatternConsts
+    {
+        public const string IS_DAMAGED = "isDamaged";
+        public const string IS_HEALED = "isHealed";
     }
 }

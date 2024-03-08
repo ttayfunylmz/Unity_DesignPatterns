@@ -61,3 +61,19 @@ MonoBehaviour:
     Mute: 0
     Loop: 0
     playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: d7e50e696eb36e94a95217b037c8944b, type: 3}
+    Name: DamageSound
+    Volume: 0.3
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: 93a1180a95a53f1488d735514fac5b79, type: 3}
+    Name: HealSound
+    Volume: 0.1
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0

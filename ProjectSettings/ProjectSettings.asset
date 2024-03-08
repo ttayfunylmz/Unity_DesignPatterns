@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: SkinnyDev
   productName: Unity_DesignPatterns
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
