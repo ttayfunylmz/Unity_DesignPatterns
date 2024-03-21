@@ -1,14 +1,5 @@
 using System;
 
-//Generic interface for event bindings.
-public interface IEventBinding<T>
-{
-    //Action to be invoked when the event occurs with a payload of type T.
-    public Action<T> OnEvent { get; set; }
-    //Action to be invoked when the event occurs with no arguments.
-    public Action OnEventNoArgs { get; set; }
-}
-
 //Concrete implementation of the generic event binding interface.
 public class EventBinding<T> : IEventBinding<T> where T : IEvent
 {
@@ -23,7 +14,7 @@ public class EventBinding<T> : IEventBinding<T> where T : IEvent
         set => onEvent = value;
     }
 
-    //Implementation of OnEventNoArgs property from the interface.
+    //Implementation of OnEventNoArgs property from the interface. (Explicit Interface Implementation)
     Action IEventBinding<T>.OnEventNoArgs 
     {
         get => onEventNoArgs;
