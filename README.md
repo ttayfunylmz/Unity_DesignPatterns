@@ -58,10 +58,15 @@
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/decorator/decorator.png?id=710c66670c7123e0928d3b3758aea79e" width="200" alt="DesignPatterns">
   </div>
-<h4><a href="" target="_blank">MVP Pattern</a> </h4>
+<h4><a href="https://youtu.be/p_obr2SvUiM?si=STZj6E1t1RqLWfOA" target="_blank">MVP Pattern</a> </h4>
   - MVP Pattern, is using the Model, View, and Presenter components to separate the data part of the application (Model), the user interface (View), and the communication between these two components (Presenter). It is an architectural design pattern.
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/memento/memento-en.png" width="200" alt="DesignPatterns">
+  </div>
+<h4><a href="" target="_blank">Event Bus Pattern (Generic)</a> </h4>
+  - An Event Bus is a communication system in software architecture that enables Publish/Subscribe messaging, allowing different components to interact without needing to be aware of each other.
+  <div align="center">
+  <img src="https://refactoring.guru/images/patterns/content/mediator/mediator.png" width="200" alt="DesignPatterns">
   </div>
 
 ## WARNING!
