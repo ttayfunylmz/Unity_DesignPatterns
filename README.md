@@ -63,10 +63,16 @@
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/memento/memento-en.png" width="200" alt="DesignPatterns">
   </div>
-<h4><a href="" target="_blank">Event Bus Pattern (Generic)</a> </h4>
+<h4><a href="https://youtu.be/DgSZFVAukbM?si=x2NR9EXdP_AY5zgi" target="_blank">Event Bus Pattern (Generic)</a> </h4>
   - An Event Bus is a communication system in software architecture that enables Publish/Subscribe messaging, allowing different components to interact without needing to be aware of each other.
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/mediator/mediator.png" width="200" alt="DesignPatterns">
+  </div>
+<h4><a href="" target="_blank">Dependency Injection - Zenject</a> </h4>
+  - Dependency Injection is a technique whereby an object receives other objects it depends on, called dependencies, rather than creating them itself.<br>
+  - Zenject is a lightweight highly performant dependency injection framework built specifically to target Unity 3D.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/modesttree/Zenject/master/Documentation/Images/ZenjectLogo.png" width="300" alt="DesignPatterns">
   </div>
 
 ## WARNING!
