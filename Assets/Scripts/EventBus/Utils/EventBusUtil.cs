@@ -52,7 +52,6 @@ public static class EventBusUtil
         {
             var busType = typedef.MakeGenericType(eventType);
             eventBusTypes.Add(busType);
-            Debug.Log($"Initialized EventBus<{eventType.Name}>");
         }
         
         return eventBusTypes;
@@ -61,7 +60,6 @@ public static class EventBusUtil
     //Method to clear all event buses.
     public static void ClearAllBuses()
     {
-        Debug.Log("Clearing all buses...");
         for (int i = 0; i < EventBusTypes.Count; i++) 
         {
             var busType = EventBusTypes[i];

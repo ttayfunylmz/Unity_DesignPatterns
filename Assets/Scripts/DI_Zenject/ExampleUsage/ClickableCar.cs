@@ -1,14 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
+//This script detects clicks on a car using raycasting. When clicked, it increments a click count, 
+//Updates the UI, plays a horn sound, and logs the click using injected dependencies.
 public class ClickableCar : MonoBehaviour
 {
     [SerializeField] private LayerMask _clickableLayer;
-    [SerializeField] private ClickableUI _clickableUI;
-    [SerializeField] private ClickableAudio _clickableAudio;
+
+    private ClickableUI _clickableUI;
+    private ClickableAudio _clickableAudio;
+    private NonMonoExample _nonMonoExample;
 
     private int _clickCount;
+
+    [Inject]
+    private void ZenjectSetup(ClickableUI clickableUI, ClickableAudio clickableAudio, NonMonoExample nonMonoExample)
+    {
+        _clickableUI = clickableUI;
+        _clickableAudio = clickableAudio;
+        _nonMonoExample = nonMonoExample;
+    }
 
     private void Update()
     {
@@ -28,6 +41,7 @@ public class ClickableCar : MonoBehaviour
                     _clickCount++;
                     _clickableUI.SetClickText(_clickCount);
                     _clickableAudio.PlayHornSound();
+                    _nonMonoExample.JustClick();
                 }
             }
         }
