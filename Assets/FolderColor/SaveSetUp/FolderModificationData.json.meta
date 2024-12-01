@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6443863008638b44f95feba4010e6177
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 291337
+  packageName: FolderColor
+  packageVersion: 2.0
+  assetPath: Assets/FolderColor/SaveSetUp/FolderModificationData.json
+  uploadId: 709671

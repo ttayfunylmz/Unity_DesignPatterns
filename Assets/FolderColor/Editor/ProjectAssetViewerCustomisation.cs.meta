@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e720e0e4e23acf647b4f63519582ddd2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 291337
+  packageName: FolderColor
+  packageVersion: 2.0
+  assetPath: Assets/FolderColor/Editor/ProjectAssetViewerCustomisation.cs
+  uploadId: 709671
