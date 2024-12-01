@@ -51,7 +51,7 @@ namespace Zenject.SpaceFighter
 
         public Vector3 Velocity
         {
-            get { return _rigidBody.velocity; }
+            get { return _rigidBody.linearVelocity; }
         }
 
         public void TakeDamage(float healthLoss)

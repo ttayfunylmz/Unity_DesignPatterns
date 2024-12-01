@@ -53,19 +53,19 @@ namespace Zenject.Asteroids
 
         public Vector3 Velocity
         {
-            get { return _rigidBody.velocity; }
-            set { _rigidBody.velocity = value; }
+            get { return _rigidBody.linearVelocity; }
+            set { _rigidBody.linearVelocity = value; }
         }
 
         public void FixedTick()
         {
             // Limit speed to a maximum
-            var speed = _rigidBody.velocity.magnitude;
+            var speed = _rigidBody.linearVelocity.magnitude;
 
             if (speed > _settings.maxSpeed)
             {
-                var dir = _rigidBody.velocity / speed;
-                _rigidBody.velocity = dir * _settings.maxSpeed;
+                var dir = _rigidBody.linearVelocity / speed;
+                _rigidBody.linearVelocity = dir * _settings.maxSpeed;
             }
         }
 
@@ -98,7 +98,7 @@ namespace Zenject.Asteroids
 
         bool IsMovingInDirection(Vector3 dir)
         {
-            return Vector3.Dot(dir, _rigidBody.velocity) > 0;
+            return Vector3.Dot(dir, _rigidBody.linearVelocity) > 0;
         }
 
         [Serializable]
