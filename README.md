@@ -84,7 +84,7 @@
 > If you are a `COMPLETE BEGINNER` to Unity and C#, "Design Patterns" might be hard to understand. I prefer you watch this <a href="https://www.youtube.com/watch?v=R6oUq_Tr04g&list=PLWcP9q-zO2JqoH-_O8v4huhQYjA0oYIPa">"Flappy Bird"</a> series.
 
 ## Unity Version
-* We used Unity version <b>2022.3.3f1</b> for this project. However, you can open it with any Unity version since it is prepared just for learning purposes.
+* We used Unity version <b>Unity 6 (6000.0.25f1)</b> for this project. However, you can open it with any Unity version since it is prepared just for learning purposes.
 
 ## How To Download
 
