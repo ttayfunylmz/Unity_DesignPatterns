@@ -33,4 +33,10 @@ public class Consts : MonoBehaviour
         public const string IS_DAMAGED = "isDamaged";
         public const string IS_HEALED = "isHealed";
     }
+
+    public struct BuilderPatternConsts
+    {
+        public const string RIFLE_GUN = "RifleGun";
+        public const string SHOT_GUN = "ShotGun";
+    }
 }

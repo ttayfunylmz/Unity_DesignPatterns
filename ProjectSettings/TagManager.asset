@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ship
   - asteroid
+  - RifleGun
+  - ShotGun
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Clickable
-  - 
+  - Hoverable
   - 
   - 
   - 
