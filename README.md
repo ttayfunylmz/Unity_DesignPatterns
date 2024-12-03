@@ -63,12 +63,17 @@
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/memento/memento-en.png" width="200" alt="DesignPatterns">
   </div>
+<h4><a href="" target="_blank">Builder Pattern</a> </h4>
+  - Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+  <div align="center">
+  <img src="https://refactoring.guru/images/patterns/content/builder/builder-en.png?id=617612423ea3752477dc90929115b3ee" width="200" alt="DesignPatterns">
+  </div>
 <h4><a href="https://youtu.be/DgSZFVAukbM?si=x2NR9EXdP_AY5zgi" target="_blank">Event Bus Pattern (Generic)</a> </h4>
   - An Event Bus is a communication system in software architecture that enables Publish/Subscribe messaging, allowing different components to interact without needing to be aware of each other.
   <div align="center">
   <img src="https://refactoring.guru/images/patterns/content/mediator/mediator.png" width="200" alt="DesignPatterns">
   </div>
-<h4><a href="" target="_blank">Dependency Injection - Zenject</a> </h4>
+<h4><a href="https://youtu.be/PWHBxnWAl28?si=ES1vDF2L8CWFfQdH" target="_blank">Dependency Injection - Zenject</a> </h4>
   - Dependency Injection is a technique whereby an object receives other objects it depends on, called dependencies, rather than creating them itself.<br>
   - Zenject is a lightweight highly performant dependency injection framework built specifically to target Unity 3D.
   <div align="center">
