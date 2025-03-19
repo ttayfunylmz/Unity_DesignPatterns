@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// Settings the Execution Order to -1 to ensure this component is initialized before any other component.
+[DefaultExecutionOrder(-1)]
 /// <summary>
 /// A simple Service Locator pattern implementation for managing game services.
 /// </summary>
