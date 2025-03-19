@@ -79,6 +79,11 @@
   <div align="center">
   <img src="https://raw.githubusercontent.com/modesttree/Zenject/master/Documentation/Images/ZenjectLogo.png" width="300" alt="DesignPatterns">
   </div>
+  <h4><a href="" target="_blank">Service Locator</a> </h4>
+  - Service Locator is essentially a persistent cache that stores references to class instances and provides them when requested. In simple terms, it delegates the task of creating dependencies to another class.
+  <div align="center">
+  <img src="https://refactoring.guru/images/patterns/content/bridge/bridge.png" width="300" alt="DesignPatterns">
+  </div>
 
 ## WARNING!
 > If you are a `COMPLETE BEGINNER` to Unity and C#, "Design Patterns" might be hard to understand. I prefer you watch this <a href="https://www.youtube.com/watch?v=R6oUq_Tr04g&list=PLWcP9q-zO2JqoH-_O8v4huhQYjA0oYIPa">"Flappy Bird"</a> series.
